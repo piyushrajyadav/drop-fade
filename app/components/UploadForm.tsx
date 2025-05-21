@@ -165,7 +165,7 @@ export default function UploadForm() {
             <p className="text-gray-600">
               {isDragActive
                 ? 'Drop the file here'
-                : 'Drag & drop a file here, or click to select'}
+                : 'Drag &amp; drop a file here, or click to select'}
             </p>
             <p className="text-sm text-gray-500 mt-2">Max size: 5MB</p>
           </div>
@@ -236,7 +236,7 @@ export default function UploadForm() {
           </div>
           
           <p className="text-sm text-blue-700">
-            Your content will be automatically deleted after it's accessed or when it expires.
+            Your content will be automatically deleted after it&apos;s accessed or when it expires.
           </p>
         </div>
       </div>

@@ -2,7 +2,7 @@ import { FileMetadata } from '../types';
 
 // Use a global variable to persist data across requests
 declare global {
-  var fileStore: Map<string, FileMetadata>;
+  let fileStore: Map<string, FileMetadata>;
 }
 
 // Initialize the global store if it doesn't exist

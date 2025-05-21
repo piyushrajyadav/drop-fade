@@ -28,7 +28,7 @@ if (typeof window === 'undefined') {
   }
 }
 
-export async function uploadFile(file: Buffer, mimeType: string): Promise<string> {
+export async function uploadFile(file: Buffer): Promise<string> {
   if (typeof window !== 'undefined') {
     throw new Error('Cloudinary upload should only be called on the server');
   }
