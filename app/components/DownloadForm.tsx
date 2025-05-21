@@ -100,7 +100,7 @@ export default function DownloadForm() {
         <h3 className="font-medium text-blue-800 mb-2">How it works</h3>
         <ol className="list-decimal list-inside text-sm text-blue-700 space-y-1">
           <li>Enter the 6-character code you received</li>
-          <li>Click "Access Content" to view or download the file</li>
+          <li>Click &quot;Access Content&quot; to view or download the file</li>
           <li>Remember: Files are automatically deleted after viewing</li>
         </ol>
       </div>
