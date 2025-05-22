@@ -57,7 +57,7 @@ CODE_LENGTH=6
    ```
 
 3. Set up environment variables:
-   - Copy `.env.local.example` to `.env.local`
+   
    - Fill in your Cloudinary and Redis credentials
 
 4. Run the development server:
